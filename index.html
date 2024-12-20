@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аркэйн</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <script type="module" src="./app.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="left">
+        <button data-page="info.html"><i class="fa-solid fa-arrow-right"></i></button>
+        <button data-page="index.html" class="logo"><i class="fa-brands fa-html5"></i></button>
+    </div>
+    <div class="center">
+        <div class="search-bar">
+        <p><i class="fa-solid fa-magnifying-glass"></i></p>
+        <input type="text" id="search-input" placeholder="Анимэ хайх...">
+        </div>
+    </div>
+    <div class="right">
+        <button data-page="login.html" class="header-btn">Нэвтрэх</button>
+    </div>
+</div>
+<product-list></product-list>
+<shopping-cart></shopping-cart>
+</body>
+</html>
